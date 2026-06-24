@@ -1,6 +1,6 @@
-from django.urls import path
-from .views import hello
+from django.urls import include, path
 
+# BASE_URL / api /  + ...
 urlpatterns = [
-    path('hello/', hello),
+    path("auth/", include("authentication.urls")),
 ]
