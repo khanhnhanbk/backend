@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     # dev app
     "api",
     "authentication",
+    "attendance",
 ]
 
 MIDDLEWARE = [
